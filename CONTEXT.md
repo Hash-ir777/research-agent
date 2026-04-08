@@ -44,8 +44,11 @@ User uploads content + selects template
 
 ## Progress Tracker
 - [x] Project structure created
-- [ ] Next.js setup
-- [ ] FastAPI base setup
+- [x] Next.js setup (frontend/)
+- [x] shadcn/ui installed
+- [x] FastAPI dependencies installed (backend/)
+- [ ] FastAPI base setup (main.py)
+- [ ] Neon DB connection
 - [ ] File upload endpoint
 - [ ] LangChain agent pipeline
 - [ ] ChromaDB integration
@@ -54,6 +57,10 @@ User uploads content + selects template
 - [ ] Frontend paper preview
 - [ ] Deployment
 
+## Current Task
+- Person 2: Write backend/app/main.py base FastAPI setup
+- Person 3: Get Gemini API key, write first LangChain agent
+- Person 4: Research IEEE/APA structure for prompt engineering
 ## Current Task
 Setting up base project structure.
 
@@ -78,3 +85,5 @@ Read CONTEXT.md fully. That is the complete state of our project.
 Continue from where the team left off.
 Current task: [UPDATE THIS before sharing with new Claude]
 Relevant code: [PASTE the file you're working on]
+
+
