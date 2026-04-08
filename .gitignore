@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# FastAPI / backend
+backend/.env
+backend/venv/
+backend/__pycache__/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+npm-debug.log*
+yarn-debug.log*
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ChromaDB local data
+chroma_db/
+*.sqlite3
+
+# uploads (user files shouldn't be in git)
+backend/uploads/
+
+# Docker
+*.log
