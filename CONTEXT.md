@@ -47,9 +47,9 @@ User uploads content + selects template
 - [x] Next.js setup (frontend/)
 - [x] shadcn/ui installed
 - [x] FastAPI dependencies installed (backend/)
-- [ ] FastAPI base setup (main.py)
-- [ ] Neon DB connection
-- [ ] File upload endpoint
+- [x] FastAPI base setup (main.py)
+- [x] Neon DB connection
+- [x] File upload endpoint
 - [ ] LangChain agent pipeline
 - [ ] ChromaDB integration
 - [ ] Paper export (DOCX/PDF)

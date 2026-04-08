@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.database import Base, engine
 from app.routes.upload import router as upload_router
+from app.routes.generate import router as generate_router
 
 app = FastAPI(
     title="ResearchMate AI",
@@ -20,6 +21,7 @@ app.add_middleware(
 )
 
 app.include_router(upload_router)
+app.include_router(generate_router)
 
 @app.get("/")
 def root():
