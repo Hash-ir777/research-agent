@@ -24,6 +24,9 @@ async def generate_paper(request: GenerateRequest):
     if not content:
         raise HTTPException(status_code=400, detail="Could not extract text from file.")
 
+    if len(content.strip()) < 50:
+        raise HTTPException(status_code=400, detail="Content too short to generate a paper.")
+
     paper = generate_full_paper(content, request.template)
 
     return {
